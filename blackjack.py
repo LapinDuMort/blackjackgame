@@ -22,13 +22,13 @@ def setpot():
 def adjustpotwin():
     global pot
     global bet
-    pot = pot + bet*2
+    pot = pot + bet
     return pot
 
 def adjustpotblackjack():
     global pot
     global bet
-    pot = pot + bet*1.5
+    pot = pot + bet*0.5
     return pot
 
 def adjustpotlose():
